@@ -1,0 +1,25 @@
+{
+    "name": "testbt",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "v2": "*",
+        "bluetooth": "github:CalliTGS3/bluetooth#9025bd6bfc9702a33ca123beb9314ce1c2c23a4f"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.28",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
